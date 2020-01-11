@@ -23,3 +23,9 @@ svg {
 text {
   font-family: sans-serif;
 }
+
+#title {
+  text-align: center;
+  font-family: sans-serif;
+  color: #333;
+}
