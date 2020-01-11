@@ -9,10 +9,6 @@ html {
   margin: 0;
 }
 
-svg {
-  /* border: 0.5px solid grey; */
-}
-
 #wrapper {
   display: grid;
   grid-row-gap: 1rem;
