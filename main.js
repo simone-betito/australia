@@ -97,6 +97,34 @@ async function drawTable() {
   //Set up interactions
 
   //tooltip
+
+  const tooltip = d3
+    .select("#wrapper")
+    .append("div")
+    .style("opacity", 0)
+    .attr("class", "tooltip")
+    .style("font-size", "16px");
+
+  var mouseover = function([d]) {
+    tooltip
+      .transition()
+      .duration(200)
+      .style(opacity, 1);
+
+    tooltip
+      .html(
+        "<span style='color:grey'>Amount Exported in USD: </span>" +
+          d.CoalExports
+      )
+      .style("left", d3.mouse(this)[0] + 30 + "px")
+      .style("top", d3.mouse(this)[1] + 30 + "px");
+  };
+  const mouseout = function(d) {
+    tooltip
+      .transition()
+      .duration(200)
+      .style("opacity", 0);
+  };
 }
 
 drawTable();

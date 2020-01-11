@@ -21,11 +21,22 @@ svg {
 }
 
 text {
-  font-family: sans-serif;
+  font-family: "Noto Serif SC", serif;
+  font-size: 13px;
 }
 
 #title {
   text-align: center;
   font-family: "Oswald", sans-serif;
   color: #333;
+}
+
+.tooltip {
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  min-width: 400px;
+  text-align: left;
+  color: white;
 }
