@@ -38,8 +38,16 @@ h6 {
 .container {
   width: 95%;
   margin: 0 auto;
-  margin-bottom: 16px;
+  margin-bottom: 40px;
   text-align: center;
+}
+
+a {
+  color: hsl(180, 15%, 47%);
+  text-decoration-style: wavy;
+}
+a:hover {
+  color: #333;
 }
 
 #wrapper {
@@ -73,18 +81,26 @@ ellipse {
   stroke-miterlimit: 10;
 }
 
-.tooltip {
-  background-color: black;
+#tooltip {
+  background-color: hsl(180, 25%, 15%);
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   padding: 15px;
-  min-width: 400px;
-  text-align: left;
   color: white;
+  font-size: 16px;
+  position: fixed;
+  pointer-events: none;
+}
+
+#tooltip p {
+  margin: 0;
+  margin-bottom: 8px;
+  opacity: 0.75;
 }
 
 #plume-group path {
   transform-origin: 50% bottom 0;
+  cursor: crosshair;
 }
 
 @supports (position: -webkit-sticky) {
