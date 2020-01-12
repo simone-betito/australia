@@ -35,7 +35,7 @@ async function drawTable() {
   const rScale = d3
     .scaleLinear()
     .domain([0, d3.max(dataset, yAccessor)])
-    .range([0.05, 0.625]);
+    .range([0.05, 0.62]);
 
   dataset.map(d => buildChart(d));
 
