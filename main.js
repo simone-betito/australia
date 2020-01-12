@@ -65,7 +65,7 @@ async function drawTable() {
       .data([d])
       .enter()
       .append("text")
-      .text(d => d.Exporter)
+      .text(d => `#${d.Rank} ${d.Exporter}`)
       .attr("text-anchor", "middle")
       .attr("transform", `translate(${dimensions.boundedWidth / 2}, 0)`)
       .attr("y", dimensions.boundedHeight);
