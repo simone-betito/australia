@@ -18,11 +18,28 @@ body {
   overflow-x: hidden;
   width: 100%;
   position: relative;
+  font-family: "Noto Serif SC", serif;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+}
+
+#bottomText {
+  font-size: 12px;
 }
 
 .container {
   width: 95%;
   margin: 0 auto;
+  margin-bottom: 16px;
+  text-align: center;
 }
 
 #wrapper {
@@ -38,14 +55,7 @@ svg {
 }
 
 text {
-  font-family: 'Noto Serif SC', serif;
   font-size: 13px;
-}
-
-#title {
-  text-align: center;
-  font-family: 'Oswald', sans-serif;
-  color: #333;
 }
 
 polyline {
@@ -87,9 +97,6 @@ ellipse {
   .container {
     margin: 0;
     margin-left: 2.5%;
-    text-align: left;
-  }
-  #title {
     text-align: left;
   }
 }
