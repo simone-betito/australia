@@ -40,3 +40,13 @@ text {
   text-align: left;
   color: white;
 }
+
+#bottomText {
+  text-align: left;
+  font-family: "Noto Serif SC", serif;
+  font-size: 11px;
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+}
