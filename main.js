@@ -1,6 +1,6 @@
 async function drawTable() {
   // Access Data
-  const datasetRaw = await d3.csv("/../../../../../coal_exports_2018.csv");
+  const datasetRaw = await d3.csv("coal_exports_2018.csv");
   const dataset = await datasetRaw
     .map(d => {
       return {
