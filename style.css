@@ -18,8 +18,12 @@ body {
   overflow-x: hidden;
   width: 100%;
   position: relative;
-  font-family: 'Noto Serif SC', serif;
+  font-family: "Noto Serif SC", serif;
   color: #333;
+}
+
+p {
+  font-size: 15px;
 }
 
 h1,
@@ -28,10 +32,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 #bottomText {
+  font-size: 12px;
+}
+
+#bottomText p {
   font-size: 12px;
 }
 
