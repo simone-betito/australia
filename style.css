@@ -22,9 +22,13 @@ body {
   color: #333;
 }
 
-#intro p {
+#intro {
   max-width: 800px;
-  text-align: center;
+  margin: 0 auto;
+}
+
+#intro p {
+  line-height: 1.35;
 }
 
 p {
