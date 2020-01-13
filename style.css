@@ -66,6 +66,10 @@ a:hover {
   margin-bottom: 5rem;
 }
 
+i {
+  font-size: 14px;
+}
+
 svg {
   margin: 0 auto;
 }
