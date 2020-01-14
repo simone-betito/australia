@@ -18,21 +18,8 @@ body {
   overflow-x: hidden;
   width: 100%;
   position: relative;
-  font-family: "Noto Serif SC", serif;
+  font-family: 'Noto Serif SC', serif;
   color: #333;
-}
-
-#intro {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-#intro p {
-  line-height: 1.35;
-}
-
-p {
-  font-size: 15px;
 }
 
 h1,
@@ -41,9 +28,26 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
+#intro {
+  max-width: 810px;
+  margin: 0 auto;
+}
+
+#intro p {
+  line-height: 1.4;
+}
+
+p {
+  font-size: 15px;
+}
+
+.instruct {
+  margin: 50px 0 10px 0;
+  font-style: italic;
+}
 #bottomText {
   font-size: 12px;
 }
@@ -54,8 +58,7 @@ h6 {
 
 .container {
   width: 95%;
-  margin: 0 auto;
-  margin-bottom: 40px;
+  margin: 60px auto;
   text-align: center;
 }
 
@@ -119,20 +122,8 @@ ellipse {
   opacity: 0.75;
 }
 
-@media (pointer: coarse) {
-  #tooltip {
-    display: none;
-  }
-}
 #plume-group path {
-  transform-origin: 50% bottom 0;
   cursor: crosshair;
-}
-
-@supports (position: -webkit-sticky) {
-  #plume-group {
-    transform: translate(28%, 0%);
-  }
 }
 
 @media (max-width: 550px) {
